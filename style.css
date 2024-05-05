@@ -30,13 +30,19 @@ body{
     transition: 0.3s ease;
     
 }
-.logo:hover{
+.logo: hover{
     transform: scale(1.1);
 }
 .logo span{
     text-shadow: 0 0 25px violet;
 }
-
+.audio{
+    font-size: 1rem;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
 .navbar a{
     display: inline-block;
     font-size: 20px;
@@ -49,7 +55,7 @@ body{
     animation: slideTop .4s ease forwards;
     animation-delay: calc(.1s * var(--i));
 }
-.navbar a:hover{
+.navbar a: hover{
     color: violet;
 }
 .Home{
