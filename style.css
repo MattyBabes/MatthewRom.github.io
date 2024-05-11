@@ -36,13 +36,6 @@ body{
 .logo span{
     text-shadow: 0 0 25px violet;
 }
-.audio{
-    font-size: 1rem;
-    color: black;
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
 .navbar a{
     display: inline-block;
     font-size: 20px;
